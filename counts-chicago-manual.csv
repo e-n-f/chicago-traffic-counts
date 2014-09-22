@@ -1,34 +1,34 @@
-id,name,id,date,time,SB-Right,SB-Thru,SB-Left,WB-Right,WB-Thru,WB-Left,NB-Right,NB-Thru,NB-Left,EB-Right,EB-Thru,EB-Left,N-Ped,E-Ped,S-Ped,W-Ped,N-Bike,E-Bike,S-Bike,W-Bike
+id,name,id,date,time,SB-Right,SB-Thru,SB-Left,WB-Right,WB-Thru,WB-Left,NB-Right,NB-Thru,NB-Left,EB-Right,EB-Thru,EB-Left,N-Ped,E-Ped,S-Ped,W-Ped,N-Bike,E-Bike,S-Bike,W-Bike,lat,lon
 
-https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Woodlawn Ave,x,2013,07:30-08:30,21,211,50,40,115,104,59,168,16,26,110,16,40,28,14,30,6,4,0,4
-https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Woodlawn Ave,x,2013,17:00-18:00,24,120,75,101,159,112,122,208,18,14,139,27,39,87,16,28,0,2,9,8
-https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Kimbark Ave,x,2013,07:30-08:30,13,0,24,28,232,0,54,8,27,0,250,13,40,19,26,11,4,4,0,3
-https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Kimbark Ave,x,2013,17:00-18:00,43,0,59,119,291,0,90,13,30,0,323,36,49,93,58,38,4,2,6,6
-https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Kenwood Ave,x,2013,07:30-08:30,0,0,0,18,243,0,0,0,0,0,275,14,38,26,0,1,2,3,0,2
-https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Kenwood Ave,x,2013,17:00-18:00,0,0,0,30,355,0,0,0,0,0,384,30,141,49,0,9,1,3,0,5
-https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Dorchester Ave,x,2013,07:30-08:30,81,119,103,0,177,22,0,0,0,39,247,0,22,11,23,31,4,0,4,4
-https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Dorchester Ave,x,2013,17:00-18:00,66,92,89,0,311,20,0,0,0,44,333,0,70,26,73,43,2,1,1,3
+https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Woodlawn Ave,x,2013,07:30-08:30,21,211,50,40,115,104,59,168,16,26,110,16,40,28,14,30,6,4,0,4,41.799459,-87.596642
+https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Woodlawn Ave,x,2013,17:00-18:00,24,120,75,101,159,112,122,208,18,14,139,27,39,87,16,28,0,2,9,8,41.799459,-87.596642
+https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Kimbark Ave,x,2013,07:30-08:30,13,0,24,28,232,0,54,8,27,0,250,13,40,19,26,11,4,4,0,3,41.799475,-87.595043
+https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Kimbark Ave,x,2013,17:00-18:00,43,0,59,119,291,0,90,13,30,0,323,36,49,93,58,38,4,2,6,6,41.799475,-87.595043
+https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Kenwood Ave,x,2013,07:30-08:30,0,0,0,18,243,0,0,0,0,0,275,14,38,26,0,1,2,3,0,2,41.799515,-87.592586
+https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Kenwood Ave,x,2013,17:00-18:00,0,0,0,30,355,0,0,0,0,0,384,30,141,49,0,9,1,3,0,5,41.799515,-87.592586
+https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Dorchester Ave,x,2013,07:30-08:30,81,119,103,0,177,22,0,0,0,39,247,0,22,11,23,31,4,0,4,4,41.799507,-87.591792
+https://fiftythird.uchicago.edu/sites/fiftythird.uchicago.edu/files/vue53traffic.pdf,53rd St and Dorchester Ave,x,2013,17:00-18:00,66,92,89,0,311,20,0,0,0,44,333,0,70,26,73,43,2,1,1,3,41.799507,-87.591792
 
-http://ward43.org/wp-content/uploads/2013/01/12-192-KLOA-Traffic-Study-for-834-Armitage-Walgreens-in-Chicago-01-24-2013.pdf,Armitage Ave and Fremont St,x,2013,07:15-08:15,8,29,35,0,347,21,0,0,0,29,490,0,452,13,313,28,2,0,12,1
-http://ward43.org/wp-content/uploads/2013/01/12-192-KLOA-Traffic-Study-for-834-Armitage-Walgreens-in-Chicago-01-24-2013.pdf,Armitage Ave and Fremont St,x,2013,17:00-18:00,31,35,401,0,482,32,0,0,0,55,569,0,335,42,212,39,20,0,6,1
-http://ward43.org/wp-content/uploads/2013/01/12-192-KLOA-Traffic-Study-for-834-Armitage-Walgreens-in-Chicago-01-24-2013.pdf,Armitage Ave and Dayton St,x,2013,07:15-08:15,0,0,0,34,338,0,46,32,30,0,491,34,534,72,384,35,2,4,8,2
-http://ward43.org/wp-content/uploads/2013/01/12-192-KLOA-Traffic-Study-for-834-Armitage-Walgreens-in-Chicago-01-24-2013.pdf,Armitage Ave and Dayton St,x,2013,17:00-18:00,0,0,0,81,480,0,50,56,34,0,563,46,343,39,205,28,18,1,9,1
+http://ward43.org/wp-content/uploads/2013/01/12-192-KLOA-Traffic-Study-for-834-Armitage-Walgreens-in-Chicago-01-24-2013.pdf,Armitage Ave and Fremont St,x,2013,07:15-08:15,8,29,35,0,347,21,0,0,0,29,490,0,452,13,313,28,2,0,12,1,41.918154,-87.650940
+http://ward43.org/wp-content/uploads/2013/01/12-192-KLOA-Traffic-Study-for-834-Armitage-Walgreens-in-Chicago-01-24-2013.pdf,Armitage Ave and Fremont St,x,2013,17:00-18:00,31,35,401,0,482,32,0,0,0,55,569,0,335,42,212,39,20,0,6,1,41.918154,-87.650940
+http://ward43.org/wp-content/uploads/2013/01/12-192-KLOA-Traffic-Study-for-834-Armitage-Walgreens-in-Chicago-01-24-2013.pdf,Armitage Ave and Dayton St,x,2013,07:15-08:15,0,0,0,34,338,0,46,32,30,0,491,34,534,72,384,35,2,4,8,2,41.91817,-87.64974
+http://ward43.org/wp-content/uploads/2013/01/12-192-KLOA-Traffic-Study-for-834-Armitage-Walgreens-in-Chicago-01-24-2013.pdf,Armitage Ave and Dayton St,x,2013,17:00-18:00,0,0,0,81,480,0,50,56,34,0,563,46,343,39,205,28,18,1,9,1,41.91817,-87.64974
 
-http://james46.org/wp-content/uploads/2011/11/KLOA-Traffic-Study-for-3740-N-Halsted-in-Chicago-12-20-2011.pdf,Bradley Pl and Halsted St,x,2011,07:45-08:45,10,268,0,0,0,0,0,168,9,0,0,0,8,0,13,41,0,7,2,33
-http://james46.org/wp-content/uploads/2011/11/KLOA-Traffic-Study-for-3740-N-Halsted-in-Chicago-12-20-2011.pdf,Bradley Pl and Halsted St,x,2011,17:00-18:00,12,435,0,0,0,0,0,378,8,0,0,0,18,0,14,126,0,71,5,39
-http://james46.org/wp-content/uploads/2011/11/KLOA-Traffic-Study-for-3740-N-Halsted-in-Chicago-12-20-2011.pdf,Waveland Ave and Halsted St,x,2011,07:45-08:45,12,219,54,3,11,15,16,167,20,13,62,12,11,11,25,18,6,13,21,33
-http://james46.org/wp-content/uploads/2011/11/KLOA-Traffic-Study-for-3740-N-Halsted-in-Chicago-12-20-2011.pdf,Waveland Ave and Halsted St,x,2011,17:00-18:00,41,343,33,15,13,28,41,384,49,41,42,29,24,25,25,28,6,74,31,36
+http://james46.org/wp-content/uploads/2011/11/KLOA-Traffic-Study-for-3740-N-Halsted-in-Chicago-12-20-2011.pdf,Bradley Pl and Halsted St,x,2011,07:45-08:45,10,268,0,0,0,0,0,168,9,0,0,0,8,0,13,41,0,7,2,33,41.95013,-87.64961
+http://james46.org/wp-content/uploads/2011/11/KLOA-Traffic-Study-for-3740-N-Halsted-in-Chicago-12-20-2011.pdf,Bradley Pl and Halsted St,x,2011,17:00-18:00,12,435,0,0,0,0,0,378,8,0,0,0,18,0,14,126,0,71,5,39,41.95013,-87.64961
+http://james46.org/wp-content/uploads/2011/11/KLOA-Traffic-Study-for-3740-N-Halsted-in-Chicago-12-20-2011.pdf,Waveland Ave and Halsted St,x,2011,07:45-08:45,12,219,54,3,11,15,16,167,20,13,62,12,11,11,25,18,6,13,21,33,41.94915,-87.64957
+http://james46.org/wp-content/uploads/2011/11/KLOA-Traffic-Study-for-3740-N-Halsted-in-Chicago-12-20-2011.pdf,Waveland Ave and Halsted St,x,2011,17:00-18:00,41,343,33,15,13,28,41,384,49,41,42,29,24,25,25,28,6,74,31,36,41.94915,-87.64957
 
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Hubbard St and Orleans St,x,2012,08:00-09:00,70,59,0,16,118,0,40,462,58,0,48,29,89,215,179,184,1,5,1,1
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Canal St,x,2012,08:00-09:00,8,2,0,9,429,81,165,5,9,13,270,3,268,1,201,75,108,8,458,0
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Kingsbury St,x,2012,08:00-09:00,268,0,110,0,274,2,4,0,2,1,417,0,291,78,121,284,86,0,439,31
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Orleans St,x,2012,08:00-09:00,12,10,5,17,251,16,7,1,12,14,350,167,326,5,0,1,89,0,368,0
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Franklin St,x,2012,08:00-09:00,116,0,54,98,177,0,0,0,0,0,280,80,347,0,0,1,75,0,445,31
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Wells St,x,2012,08:00-09:00,45,853,67,0,220,54,0,0,0,90,285,0,346,386,463,829,12,0,357,216
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Mart Dr and Orleans St,x,2012,08:00-09:00,0,0,0,46,40,0,15,449,57,0,17,58,32,236,203,387,0,6,3,3
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Mart Dr and Wells St,x,2012,08:00-09:00,86,964,0,0,0,0,0,0,0,37,0,0,837,0,0,86,0,0,0,12
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Lake St and Upper Wacker Dr,x,2012,08:00-09:00,181,1057,128,0,0,0,93,779,1,68,520,301,19,742,1488,1413,6,3,21,5
-http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Upper Wacker Dr and Orleans St,x,2012,08:00-09:00,0,0,0,105,1150,0,265,235,105,0,945,180,1044,303,518,461,,,,
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Hubbard St and Orleans St,x,2012,08:00-09:00,70,59,0,16,118,0,40,462,58,0,48,29,89,215,179,184,1,5,1,1,41.889944,-87.637004
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Canal St,x,2012,08:00-09:00,8,2,0,9,429,81,165,5,9,13,270,3,268,1,201,75,108,8,458,0,41.889081,-87.639997
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Kingsbury St,x,2012,08:00-09:00,268,0,110,0,274,2,4,0,2,1,417,0,291,78,121,284,86,0,439,31,41.889105,-87.638114
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Orleans St,x,2012,08:00-09:00,12,10,5,17,251,16,7,1,12,14,350,167,326,5,0,1,89,0,368,0,41.889129,-87.636972
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Franklin St,x,2012,08:00-09:00,116,0,54,98,177,0,0,0,0,0,280,80,347,0,0,1,75,0,445,31,41.889149,-87.635523
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Kinzie St and Wells St,x,2012,08:00-09:00,45,853,67,0,220,54,0,0,0,90,285,0,346,386,463,829,12,0,357,216,41.889157,-87.634010
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Mart Dr and Orleans St,x,2012,08:00-09:00,0,0,0,46,40,0,15,449,57,0,17,58,32,236,203,387,0,6,3,3,41.888019,-87.636408
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Mart Dr and Wells St,x,2012,08:00-09:00,86,964,0,0,0,0,0,0,0,37,0,0,837,0,0,86,0,0,0,12,41.888098,-87.633984
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Lake St and Upper Wacker Dr,x,2012,08:00-09:00,181,1057,128,0,0,0,93,779,1,68,520,301,19,742,1488,1413,6,3,21,5,41.885734,-87.636870
+http://www.ward42chicago.com/documents/11-200WalshProposedWolfPointDevelopmentinChicago11-8-2012gjglra.pdf,Upper Wacker Dr and Orleans St,x,2012,08:00-09:00,0,0,0,105,1150,0,265,235,105,0,945,180,1044,303,518,461,,,,,41.886856,-87.635421
 
 http://uic.edu/master_plan/Report/Phase%203%20Report%20-%202010%20Campus%20Master%20Plan/Appendix_C_Transportation.pdf,Van Buren St and Peoria St,x,2010,08:00-09:00,53,4,12,22,366,11,10,2,12,17,130,40,38,74,76,37,,,,
 http://uic.edu/master_plan/Report/Phase%203%20Report%20-%202010%20Campus%20Master%20Plan/Appendix_C_Transportation.pdf,Harrison St and Halsted St,x,2010,08:00-09:00,52,368,43,48,258,51,86,576,241,149,211,29,41,28,43,214,,,,
