@@ -1,0 +1,53 @@
+#!/usr/bin/perl
+
+open(IN, "to-geocode-ashland");
+while (<IN>) {
+	chomp;
+	($name, $lat, $lon) = split(/,/);
+	$lat{$name} = $lat;
+	$lon{$name} = $lon;
+}
+
+while (<>) {
+	if (/^ *\d+.*(Ashland.*)/) {
+		$where = $1;
+		$where =~ s/,//;
+		$where =~ s/\s+/ /g;
+		$where =~ s/ *8\/8\/2013//;
+	}
+
+	if (/EBL *EBT *EBR *WBL *WBT *WBR *NBL *NBT *NBR *SBL *SBT *SBR/) {
+		while (<>) {
+			if (/Confl.*Peds.*hr\)(.*)/) {
+				$what = $1;
+				$what =~ s/^ *//;
+				$what =~ s/\s+/ /g;
+
+				@what = split(/ /, $what);
+			}
+
+			if (/([AP]M) *Peak/) {
+				if ($#what == 7) {
+					print "cta-ashland-brt,$where,Chicago,2013,";
+
+					if ($1 eq "AM") {
+						print "08:00-09:00,";
+					} else {
+						print "17:00-18:00,";
+					}
+
+					print ",,,,,,,,,,,,";
+					print "$what[0],$what[7],$what[1],$what[6],,,,,";
+					print "$lat{$where},$lon{$where}";
+					print "\n";
+				}
+			}
+
+			if (/Synchro/) {
+				$where = "";
+				$what = "";
+				last;
+			}
+		}
+	}
+}

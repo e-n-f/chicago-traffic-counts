@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cat AshlandBRTDraftEA_AppendixB-2_20131113.txt | ./mangle-ashland > counts-ashland.csv
